@@ -1,5 +1,6 @@
-# DSA
-Data Structure and Algorithms for learners and developers
+# Data Structure and Algorithms
+
+*Languages used: Java, C++, Python*
 
 **Table of content**
 
@@ -11,3 +12,6 @@ Data Structure and Algorithms for learners and developers
 |       | With template | [Java](/Queue/With%20template/Java) |
 | Linked List | Basic   | [Java](/Linked%20List/Basic/Java)  |
 |       | With template | [Java](/Linked%20List/With%20template/Java) |
+| Heap	| Max heap	| [Java](/Heap/Max%20heap/Java)	|
+|	| Min heap	| [Java](/Heap/Min%20heap/Java)	|
+
