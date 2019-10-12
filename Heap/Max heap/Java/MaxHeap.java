@@ -70,21 +70,21 @@ public class MaxHeap {
     }
 
     private void heapifyDown() {
-        int i = 0, minChild;
+        int i = 0, maxChild;
 
         while(hasLeftChild(i)) { //as Heap is complete binary tree, having right child ensures having left child
-            minChild = leftChild(i);
+            maxChild = leftChild(i);
 
-            //if there is a right child and it is greater than left. then change the minimum child
-            if (hasRightChild(i) && heap[rightChild(i)] > heap[minChild])
-                minChild = rightChild(i);
+            //if there is a right child and it is greater than left. then change the maximum child
+            if (hasRightChild(i) && heap[rightChild(i)] > heap[maxChild])
+                maxChild = rightChild(i);
 
-            if (heap[i] < heap[minChild])
-                swap(i, minChild);
+            if (heap[i] < heap[maxChild])
+                swap(i, maxChild);
             else
                 break;
 
-            i = minChild; //moving the iteration towards minimum valued child
+            i = maxChild; //moving the iteration towards maximum valued child
         }
     }
 
