@@ -57,4 +57,11 @@ public class Queue {
     public int getSize() {
         return counter;
     }
+
+    public void print() {
+        for(int i = front; i != rear; i= (i+1)%size) {
+            System.out.print(element[i] + " ");
+        }
+        System.out.println();
+    }
 }
