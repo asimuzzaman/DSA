@@ -15,3 +15,8 @@
 | Heap	| Max heap	| [Java](/Heap/Max%20heap/Java), [C++](/Heap/Max%20heap/C++), [Python](/Heap/Max%20heap/Python)	|
 |	| Min heap	| [Java](/Heap/Min%20heap/Java), [C++](/Heap/Min%20heap/C++), [Python](/Heap/Min%20heap/Python)	|
 |   Binary Search Tree  |   |   [Java](/Binary%20Search%20Tree/Java), [C++](/Binary%20Search%20Tree/C++), [Python](/Binary%20Search%20Tree/Python)  |
+|   Sorting |   Bubble  |   [Java, C++](/Sorting/Bubble)   |
+|   |   Insertion  |   [Java, C++](/Sorting/Insertion)   |
+|   |   Merge  |   [Java, C++](/Sorting/Merge)   |
+|   |   Quick  |   [Java, C++](/Sorting/Quick)   |
+|   |   Selection  |   [Java, C++](/Sorting/Selection)   |
